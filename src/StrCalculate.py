@@ -1,2 +1,2 @@
-def StrCalculate():
-    pass
+def StrCalculate(number: str):
+    return 0
