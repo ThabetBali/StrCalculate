@@ -1,6 +1,6 @@
 import pytest
 from src.StrCalculate import StrCalculate
-@pytest.mark.parametrize("string, result_expected", [("",0), ("0",0), ("1",1)])
+@pytest.mark.parametrize("string, result_expected", [("",0), ("0",0), ("1",1), ("2",2), ("1,1", 2)])
 
 def test(string, result_expected):
     actual_result = StrCalculate(string)
